@@ -5,6 +5,7 @@ using System.Collections;
 public class PlayerController : MonoBehaviour {
 
     public float speed;
+    public float mouseSpeed;
     public Text countText;
     public Text winText;
 
@@ -21,12 +22,37 @@ public class PlayerController : MonoBehaviour {
 
     void FixedUpdate()
     {
+        int new_count = 0;
         float moveHorizontal = Input.GetAxis ("Horizontal");
         float moveVertical = Input.GetAxis ("Vertical");
 
-        Vector3 movement = new Vector3(moveHorizontal, 0.0f, moveVertical);
+        float mouseH = Input.GetAxis("Mouse X");
+        float mouseY = Input.GetAxis("Mouse Y");
 
+        Vector3 movement = new Vector3(moveHorizontal, 0.0f, moveVertical);
+        Vector3 mouseMovement = new Vector3(mouseH, 0f, mouseY); 
+
+        //this is to get input from the keyboard 
         rb.AddForce(movement * speed);
+        //this gets input from the mouse
+        if (Input.GetKey("e"))
+        {
+            rb.AddForce(mouseMovement * mouseSpeed);
+        }
+
+        //this is useless but makes the ball bounce pretty cool
+        if (new_count != count)
+        {
+            //float incYvalue = .25F;
+            //float positionY = transform.position.y + incYvalue;
+            //transform.position = new Vector3(transform.position.x, transform.position.y + .25F, transform.position.z);
+            
+        }
+
+        if (transform.position.y < 0)
+        {
+            winText.text= "You LOSE! MUHHHHHHH";
+        }
     }
 
     void OnTriggerEnter(Collider other)
@@ -36,6 +62,7 @@ public class PlayerController : MonoBehaviour {
             other.gameObject.SetActive(false);
             count = count + 1;
             SetCountText();
+            transform.localScale = new Vector3(transform.localScale.x + .5F, transform.localScale.x + .5F, transform.localScale.x + .5F);
         }
         //Destroy(other.gameObject);
     }
