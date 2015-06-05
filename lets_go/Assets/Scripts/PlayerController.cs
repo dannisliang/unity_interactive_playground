@@ -40,6 +40,10 @@ public class PlayerController : MonoBehaviour {
             rb.AddForce(mouseMovement * mouseSpeed);
         }
 
+        if (Input.GetButtonDown("Cancel"))
+        {
+            Application.LoadLevel(0); ;
+        }
         //this is useless but makes the ball bounce pretty cool
         if (new_count != count)
         {

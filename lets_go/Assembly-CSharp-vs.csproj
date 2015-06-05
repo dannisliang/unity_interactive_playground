@@ -79,6 +79,17 @@
      <Compile Include="Assets\OVR\Scripts\Util\OVRSceneSampleController.cs" />
      <Compile Include="Assets\OVR\Scripts\Util\OVRScreenFade.cs" />
      <Compile Include="Assets\OVR\Scripts\Util\OVRTrackerBounds.cs" />
+     <Compile Include="Assets\Script\Kinect\KinectImgControllers\DisplayColor.cs" />
+     <Compile Include="Assets\Script\Kinect\KinectImgControllers\DisplayDepth.cs" />
+     <Compile Include="Assets\Script\Kinect\KinectModelControllers\KinectModelControllerV2.cs" />
+     <Compile Include="Assets\Script\Kinect\KinectModelControllers\KinectPointController.cs" />
+     <Compile Include="Assets\Script\Kinect\KinectWrapper\DepthWrapper.cs" />
+     <Compile Include="Assets\Script\Kinect\KinectWrapper\DeviceOrEmulator.cs" />
+     <Compile Include="Assets\Script\Kinect\KinectWrapper\KinectEmulator.cs" />
+     <Compile Include="Assets\Script\Kinect\KinectWrapper\KinectInterop.cs" />
+     <Compile Include="Assets\Script\Kinect\KinectWrapper\KinectRecorder.cs" />
+     <Compile Include="Assets\Script\Kinect\KinectWrapper\KinectSensor.cs" />
+     <Compile Include="Assets\Script\Kinect\KinectWrapper\SkeletonWrapper.cs" />
      <Compile Include="Assets\Scripts\CameraControl.cs" />
      <Compile Include="Assets\Scripts\CameraRotate.cs" />
      <Compile Include="Assets\Scripts\FP_Control.cs" />
@@ -90,6 +101,7 @@
      <None Include="Assets\Plugins\donotdelete.txt" />
      <None Include="Assets\Plugins\Android\assets\donotdelete.txt" />
      <None Include="Assets\Plugins\x86_64\donotdelete.txt" />
+     <None Include="Assets\Asset\Shaders\Normal-Diffuse.shader" />
      <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
      <None Include="Assets\OVR\Shaders\TextShader3D.shader" />
      <None Include="Assets\OVR\Moonlight\Shaders\Unlit Crosshair.shader" />

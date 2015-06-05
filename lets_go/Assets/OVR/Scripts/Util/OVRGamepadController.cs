@@ -369,6 +369,11 @@ public class OVRGamepadController : MonoBehaviour
         {
             GPC_Available = GPC_Update();
         }
+        //added to move to menu
+        if (Input.GetButtonDown("Cancel"))
+        {
+            Application.LoadLevel(0); ;
+        }
     }
 
 	void OnDestroy()

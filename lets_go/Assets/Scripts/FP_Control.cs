@@ -38,9 +38,6 @@ public class FP_Control : MonoBehaviour
         }
 
 
-
-
-
         //this gets input from the mouse
         //50-320
         if (Input.GetMouseButton(0))
