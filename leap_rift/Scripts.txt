@@ -1,0 +1,5 @@
+----Gestures---- 
+https://developer.leapmotion.com/documentation/csharp/api/Leap.Gesture.html#id1
+Hand Swipe -> Detects hand swiping on x and y axis. Can be tuned with MinLength and MinVelocity settings
+Hand Swipe  Rotate -> Detects hand swipe on x and y axis then rotates game object
+Hand Circle -> Detects  circle motion from fingers. Tuning via MinRadius and MinArc
