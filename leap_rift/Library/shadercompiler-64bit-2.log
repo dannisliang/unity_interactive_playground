@@ -1,6 +1,44 @@
 Base path: C:/Program Files/Unity/Editor/Data
-Pipe name: \\.\pipe\UnityShaderCompiler-64bit-2-11640
+Pipe name: \\.\pipe\UnityShaderCompiler-64bit-2-13792
 Cmd: getPlatforms
+Cmd: compileSnippet
+  api=0 type=0 insize=881 outsize=1267 kw=LEAP_FORMAT_IR ok=1
+Cmd: compileSnippet
+  api=1 type=1 insize=881 outsize=550 kw=LEAP_FORMAT_IR ok=1
+Cmd: compileSnippet
+  api=8 type=1 insize=881 outsize=5590 kw=LEAP_FORMAT_RGB ok=1
+Cmd: compileSnippet
+  api=1 type=0 insize=3239 outsize=509 kw=LEAP_FORMAT_IR USE_DEPTH_TEXTURE ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=3239 outsize=3220 kw=LEAP_FORMAT_RGB ok=1
+Cmd: compileSnippet
+  api=1 type=1 insize=3239 outsize=474 kw=LEAP_FORMAT_IR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=3239 outsize=2436 kw=LEAP_FORMAT_RGB ok=1
+Cmd: compileSnippet
+  api=1 type=0 insize=3234 outsize=443 kw=LEAP_FORMAT_IR ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=3234 outsize=2306 kw=LEAP_FORMAT_IR USE_DEPTH_TEXTURE ok=1
+Cmd: compileSnippet
+  api=1 type=0 insize=3234 outsize=443 kw=LEAP_FORMAT_RGB ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=3234 outsize=1835 kw=LEAP_FORMAT_RGB ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=3234 outsize=5040 kw=LEAP_FORMAT_RGB USE_DEPTH_TEXTURE ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=3234 outsize=6 kw=LEAP_FORMAT_IR USE_DEPTH_TEXTURE ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=3234 outsize=4118 kw=LEAP_FORMAT_IR USE_DEPTH_TEXTURE ok=1
+Cmd: compileSnippet
+  api=1 type=0 insize=788 outsize=144 kw= ok=1
+Cmd: compileSnippet
+  api=1 type=0 insize=988 outsize=169 kw= ok=1
+Cmd: compileSnippet
+  api=8 type=0 insize=1074 outsize=1869 kw=LEAP_FORMAT_IR ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1074 outsize=1242 kw=LEAP_FORMAT_RGB ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1074 outsize=4045 kw=LEAP_FORMAT_RGB ok=1
 Unhandled exception: Readfile from pipe failed. GLE=The pipe has been ended.
 
 

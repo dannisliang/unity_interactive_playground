@@ -1,3 +1,45 @@
 Base path: C:/Program Files/Unity/Editor/Data
-Pipe name: \\.\pipe\UnityShaderCompiler-64bit-1-12240
+Pipe name: \\.\pipe\UnityShaderCompiler-64bit-1-13532
 Cmd: getPlatforms
+Cmd: compileSnippet
+  api=8 type=0 insize=881 outsize=1869 kw=LEAP_FORMAT_IR ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=881 outsize=1242 kw=LEAP_FORMAT_RGB ok=1
+Cmd: compileSnippet
+  api=8 type=1 insize=881 outsize=2893 kw=LEAP_FORMAT_IR ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=3239 outsize=1632 kw=LEAP_FORMAT_IR ok=1
+Cmd: compileSnippet
+  api=1 type=0 insize=3239 outsize=509 kw=LEAP_FORMAT_RGB USE_DEPTH_TEXTURE ok=1
+Cmd: compileSnippet
+  api=1 type=1 insize=3239 outsize=474 kw=LEAP_FORMAT_IR USE_DEPTH_TEXTURE ok=1
+Cmd: compileSnippet
+  api=1 type=1 insize=3239 outsize=743 kw=LEAP_FORMAT_RGB USE_DEPTH_TEXTURE ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=3234 outsize=2583 kw=LEAP_FORMAT_IR ok=1
+Cmd: compileSnippet
+  api=1 type=0 insize=3234 outsize=509 kw=LEAP_FORMAT_RGB USE_DEPTH_TEXTURE ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=3234 outsize=2306 kw=LEAP_FORMAT_RGB USE_DEPTH_TEXTURE ok=1
+Cmd: compileSnippet
+  api=1 type=1 insize=3234 outsize=1451 kw=LEAP_FORMAT_IR USE_DEPTH_TEXTURE ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=3234 outsize=6 kw=LEAP_FORMAT_RGB USE_DEPTH_TEXTURE ok=1
+Cmd: compileSnippet
+  api=1 type=1 insize=3234 outsize=2353 kw=LEAP_FORMAT_RGB USE_DEPTH_TEXTURE ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=788 outsize=426 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=788 outsize=6 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=988 outsize=488 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=988 outsize=6 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=1074 outsize=1500 kw=LEAP_FORMAT_IR ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=1074 outsize=6 kw=LEAP_FORMAT_IR ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=1074 outsize=6 kw=LEAP_FORMAT_RGB ok=1
+Cmd: compileSnippet
+  api=1 type=1 insize=1074 outsize=1726 kw=LEAP_FORMAT_RGB ok=1

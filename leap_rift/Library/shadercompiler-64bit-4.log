@@ -1,6 +1,58 @@
 Base path: C:/Program Files/Unity/Editor/Data
-Pipe name: \\.\pipe\UnityShaderCompiler-64bit-4-1092
+Pipe name: \\.\pipe\UnityShaderCompiler-64bit-4-13784
 Cmd: getPlatforms
+Cmd: compileSnippet
+  api=1 type=0 insize=881 outsize=243 kw=LEAP_FORMAT_IR ok=1
+Cmd: compileSnippet
+  api=1 type=0 insize=881 outsize=243 kw=LEAP_FORMAT_RGB ok=1
+Cmd: compileSnippet
+  api=8 type=0 insize=881 outsize=1869 kw=LEAP_FORMAT_RGB ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=881 outsize=6 kw=LEAP_FORMAT_IR ok=1
+Cmd: compileSnippet
+  api=1 type=1 insize=881 outsize=1433 kw=LEAP_FORMAT_RGB ok=1
+Cmd: compileSnippet
+  api=1 type=0 insize=3239 outsize=443 kw=LEAP_FORMAT_IR ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=3239 outsize=2306 kw=LEAP_FORMAT_IR USE_DEPTH_TEXTURE ok=1
+Cmd: compileSnippet
+  api=1 type=0 insize=3239 outsize=443 kw=LEAP_FORMAT_RGB ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=3239 outsize=1835 kw=LEAP_FORMAT_RGB ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=3239 outsize=3374 kw=LEAP_FORMAT_RGB USE_DEPTH_TEXTURE ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=3239 outsize=6 kw=LEAP_FORMAT_IR USE_DEPTH_TEXTURE ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=3239 outsize=6 kw=LEAP_FORMAT_RGB ok=1
+Cmd: compileSnippet
+  api=1 type=1 insize=3239 outsize=743 kw=LEAP_FORMAT_RGB ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=3234 outsize=3422 kw=LEAP_FORMAT_IR USE_DEPTH_TEXTURE ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=3234 outsize=6 kw=LEAP_FORMAT_IR ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=3234 outsize=6 kw=LEAP_FORMAT_RGB ok=1
+Cmd: compileSnippet
+  api=1 type=1 insize=3234 outsize=1982 kw=LEAP_FORMAT_RGB ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=3234 outsize=5881 kw=LEAP_FORMAT_RGB USE_DEPTH_TEXTURE ok=1
+Cmd: compileSnippet
+  api=8 type=0 insize=788 outsize=1625 kw= ok=1
+Cmd: compileSnippet
+  api=8 type=1 insize=788 outsize=1008 kw= ok=1
+Cmd: compileSnippet
+  api=8 type=0 insize=988 outsize=1812 kw= ok=1
+Cmd: compileSnippet
+  api=8 type=1 insize=988 outsize=1138 kw= ok=1
+Cmd: compileSnippet
+  api=1 type=0 insize=1074 outsize=243 kw=LEAP_FORMAT_IR ok=1
+Cmd: compileSnippet
+  api=1 type=0 insize=1074 outsize=243 kw=LEAP_FORMAT_RGB ok=1
+Cmd: compileSnippet
+  api=8 type=0 insize=1074 outsize=1869 kw=LEAP_FORMAT_RGB ok=1
+Cmd: compileSnippet
+  api=8 type=1 insize=1074 outsize=3510 kw=LEAP_FORMAT_IR ok=1
 Unhandled exception: Readfile from pipe failed. GLE=The pipe has been ended.
 
 

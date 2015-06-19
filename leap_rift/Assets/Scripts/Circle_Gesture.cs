@@ -4,9 +4,8 @@ using Leap;
 
 public class Circle_Gesture : MonoBehaviour {
     Controller controller;
-    public float minRadius = 100;
+    public float minRadius = 100f;
     public float minArc = 3.14f;
-
     public GameObject whatToSpin;
 
     void Start()
@@ -18,7 +17,7 @@ public class Circle_Gesture : MonoBehaviour {
         controller.Config.Save();
     }
 
-    void Update()
+    void LateUpdate()
     {
         Frame frame = controller.Frame();
         GestureList gesturelist = frame.Gestures();
